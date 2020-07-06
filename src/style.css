@@ -1,0 +1,22 @@
+html{
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-image: url(https://pbs.twimg.com/media/ELrmBGCWoAQgfQQ.jpg);
+
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background:black;
+    color: aliceblue;
+    padding: 3em;
+    text-align: center;
+    justify-content: space-between;
+
+    margin-top: auto;
+}
