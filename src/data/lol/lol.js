@@ -1,4 +1,4 @@
-export default {
+const lol =  {
   type: "champion",
   format: "standAloneComplex",
   version: "6.24.1",
@@ -6973,3 +6973,4 @@ export default {
     }
   }
 };
+export default lol;

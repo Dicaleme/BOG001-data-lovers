@@ -1,9 +1,12 @@
-// estas funciones son de ejemplo
+// Estas funciones nos ayudan a exportar los datos al main.js
 
-export const example = () => {
-  return 'example';
-};
+import lol from './data/lol/lol.js';
 
-export const anotherExample = () => {
-  return 'OMG';
-};
+const campeones = Object.values(lol.data);
+console.log(campeones);
+
+export const list=()=>{
+
+  return  campeones;
+}
+export default {list};
