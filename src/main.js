@@ -19,6 +19,7 @@ campeones.forEach( element => {
     championContainer.appendChild(document.createTextNode(element.name))
     const image = document.createElement('img')
     image.src=element.img;
+ image.classList.add('champion-image');
    championContainer.appendChild(image);
    contenedor.appendChild(championContainer);
 });

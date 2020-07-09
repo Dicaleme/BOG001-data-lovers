@@ -10,7 +10,7 @@ const lol =  {
       name: "Aatrox",
       title: "the Darkin Blade",
       img:
-        "https://www.masterypoints.com/assets/img/lol/champion_icons/Aatrox.png",
+        "https://vignette.wikia.nocookie.net/leagueoflegends/images/6/67/Aatrox_OriginalCentered.jpg/revision/latest/scale-to-width-down/340?cb=20180626200206",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
       blurb:
