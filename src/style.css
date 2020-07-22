@@ -5,7 +5,19 @@ body{
 }
 .header{
     text-align: center;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
+}
+.header-logo{
+    border: white 8px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px; 
+  margin-top: 15px;
+
+}
+.menú{
+    background: black;
+    color: white;
+   
 }
 .charBox{
     /*outline:1px solid red;*/
@@ -44,7 +56,83 @@ body{
     border-radius:50px;
     border:2px solid white;
     /*border:2px solid #a37b16; Borde Dorado Opcional*/ 
-} 
+}  
+
+   .champion1{
+    float:right;
+    animation-name: slidein;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate-reverse;
+    animation-timing-function:linear ;
+    margin-top: 30px;
+  } 
+  .champion1:hover{
+    animation-play-state: paused;
+  }
+  @-webkit-keyframes slidein {
+
+      0%{
+        width: 650px;
+        height: 650px;
+        background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/assassin-d64d3ffdda15e1eed637aefe6a2c7fee.png");
+        background-size:cover;
+        border-radius:325px;
+        border:2px solid #a37b16;
+        position: relative;
+      }
+     25%{
+        width: 650px;
+        height: 650px;
+        background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/fighter-7a08920b696ecdb673edeeae1d3c616e.png");
+        background-size:cover;
+        border-radius:325px;
+        border:2px solid #a37b16;
+        position: relative;
+         }
+    50%{
+        width: 650px;
+        height: 650px;
+        background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/mage-3bfa6dfe620adafe5e539c2e470f4acc.png");
+        background-size:cover;
+        border-radius:325px;
+        border:2px solid #a37b16;
+        position: relative;
+    }
+    70%{
+        width: 650px;
+        height: 650px;
+        background-image:url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/marksman-b339ed8fd7e04ff2c3fca022c5d299fb.png");
+        background-size:cover;
+        border-radius:325px;
+        border:2px solid #a37b16;
+        position: relative;
+    }
+    80%{
+        width: 650px;
+        height: 650px;
+        background-image:url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/support-d63ae08baf517425864ddc020a5871d5.png");
+        background-size:cover;
+        border-radius:325px;
+        border:2px solid #a37b16;
+        position: relative;
+    }
+    100%{
+        width: 650px;
+        height: 650px;
+        background-image:url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/tank-1245abc326bd98c567ab22659719a1a3.png");
+        background-size:cover;
+        border-radius:325px;
+        border:2px solid #a37b16;
+        position: relative;
+    }
+  }
+ /*  .champion2{
+    width:500px; 
+    height:500px;
+    float: right;
+  }  */
 footer{
     background:black;
     color: aliceblue;
@@ -52,13 +140,15 @@ footer{
     text-align: center;
     justify-content: space-between;
     margin-top: auto;
+   /*  flex-wrap: wrap; */
     
 }
 
 /*Desktop first  que empiece desde el MQ mas grande*/
 
-@media screen and (max-width:1024px){
-    
+@media screen and (max-width:320px){
+   
+
 }
 
 @media screen and (max-width:768px){
