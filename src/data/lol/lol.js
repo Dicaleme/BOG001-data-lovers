@@ -12,7 +12,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt570145160dd39dca/5db05fa8347d1c6baa57be25/RiotX_ChampionList_aatrox.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
+        "https://i.pinimg.com/originals/a7/ca/bd/a7cabd40da39af3681044389f9dc3fea.gif",
       blurb:
         "Aatrox is a legendary warrior, one of only five that remain of an ancient race known as the Darkin. He wields his massive blade with grace and poise, slicing through legions in a style that is hypnotic to behold. With each foe felled, Aatrox's ...",
       info: {
