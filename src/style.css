@@ -1,25 +1,75 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
 body{
-    margin: 0%;
-    background-color:rgba(0, 0, 44, 0.993);
+   
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
 }
 .header{
-    text-align: center;
+    color: white;
     flex-wrap:wrap;
 }
 .header-logo{
-    border: white 8px double;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px; 
-  margin-top: 15px;
-
+    margin-top: -1%;
+    padding-bottom: 1px;
+    margin-left: 15px;
+    position: relative;
 }
 
 .menú{
-    background: black;
-    
+background:black;
+
+}
+.items-menú{
+    display: flex;
+    justify-content: flex-end;
+}
+.items-menú a {
+    font-size: 17px;
+   margin-right: 40px; 
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}  
+.items-menú a:hover {
+    border-top: 1px solid#a37b16;
+    border-bottom: 1px solid#a37b16;
+}
+.menú-responsive-hamburguer{
+    color: white;
+}
+.Elige-tu{  
+    padding: 15px ; 
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.Campeón{
+    font-style: italic;
+    text-align: center;
+    font-family: "Beaufort for LOL", serif; 
+    letter-spacing: 0.03em;
+    font-size: 110px;
+    font-weight: 100%;
     
 }
+.parrafo-campeón{
+    text-align: center;
+    }
+.buttons-filter button{
+    background: transparent;
+    border: none ;
+    border-radius: 50px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
 .menú ul li{
     color: cornsilk;
     display: inline;
@@ -27,20 +77,13 @@ body{
 }
 .charBox{
     /*outline:1px solid red;*/
-    display: flex;
+     display: inline-flex; 
     flex-direction: row;
     flex-wrap: wrap;
-    outline:1px solid red;
+
+    /* outline:1px solid red; */
 }
-  .championsName{
-    outline:1px solid red;
-    font-family: 'Spectral SC', serif;
-    font-size:1000px;
-    color:blue; 
-    display: flex;   
-    flex-direction: column-reverse;   
-    align-items: center;  
-}   
+   
 .card{
     /*outline:1px solid red;*/
     margin: 25px;
@@ -49,21 +92,32 @@ body{
     height: 200px;
     border-radius:50px;
     flex-wrap: wrap;
-    outline:1px solid red;
+    /* outline:1px solid red; */
    
    /*  grid-template-columns: 25% 20% 25%; */
          
 }
 .card:hover{    
-    transform: rotateY(180deg);
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(29, 28, 28, 0.815);
 }
+
 .champion-image{
     width: 100%;
     height: 100%;
-    border-radius:50px;
-    border:2px solid white;
-    /*border:2px solid #a37b16; Borde Dorado Opcional*/ 
+    border-radius:10px;
+  border:2px solid #a37b16; 
 }  
+.championsName{
+
+     font-family: 'Spectral SC', serif;
+     font-size: 25px;
+     color: black; 
+     display: flex;   
+     flex-direction: column-reverse;   
+     align-items: center;
+    
+ }
 .modalBg{
     position: fixed;
     width: 100%;
@@ -83,11 +137,11 @@ body{
     opacity: 1;
 }
 .modal{   
-    position: relative;
+    position: relative; 
     font-family: 'Spectral SC', serif;
-    background-color: white;
-    width: 50%;
-    height: 50%;
+    background-color:black;
+    width: 60%;
+    height: 80%;
     border-radius:20px;
     display: flex;
     justify-content: space-around;
@@ -103,42 +157,120 @@ body{
     cursor: pointer;    
 }
 .modalClose{
+    color:white;    
     position: absolute;
     top: 10px;
     right: 10px;
     font-weight: bold;
     cursor: pointer;
 }
-.championsName{
-    /*outline:1px solid red;*/       
-    font-family: 'Spectral SC', serif;
-    font-size: 20px;
-    color: thistle; 
-    display: flex;   
-    flex-direction: column-reverse;   
-    align-items: center;    
-}
+
 .modalTitle{
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    margin-bottom:10px;
+    font-family: 'Spectral SC', serif;
+    font-size: 25px;
+    color: white;
+    margin:  auto;
+  text-align: center;
 }
+
 .modalBlurb{
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-
+    font-family: 'Spectral SC', serif;
+    font-size: 18px;
+    text-align: center;
+    color:white; 
+    text-align: justify;
+    margin-left:20px;     
+}
+.modalSplash{
+    width: 50%;
+    height:95%;
+    float: right;
+    border:1px solid #a37b16;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.cuadrado{
+    width:35%; 
+    height:75%; 
+    border: 1px solid #a37b16;
+    position: absolute;
+    top: 85px;
+    left: 440px;
+    transform: rotateZ(45deg); 
+}
+.searchBox{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-   .champion1{
-    float:right;
+.searchBox .searchText{
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 53px;
+    transition: 0.4s linear;
+    overflow: hidden;
+}
+
+.searchBox .searchText .searchInput{
+    display: block;
+    appearance: none;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: gray;
+    padding: 15px;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s linear;    
+}
+
+.searchBox .searchText .searchInput::placeholder{
+    color: gray;
+}
+
+.searchBox .searchText .searchbox_icon{
+    position: absolute;
+    right: calc(30px / 2);
+    top: 35%;    
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.searchBox .searchText .searchbox_icon path{
+    fill: #130f40;
+    transition: 0.4s linear;    
+}
+
+.searchBox .searchText:focus-within{
+    max-width: 300px;
+}
+
+.searchBox .searchText:focus-within .searchInput{
+    background-color: #fff;
+    padding-right: 50px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.searchBox .searchText:focus-within .searchbox_icon path{
+    fill:#a37b16 ;    
+}
+
+
+.champion1{
+   float:right; 
     animation-name: slidein;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-direction: alternate-reverse;
     animation-timing-function:linear ;
-    margin-top: 30px;
+   
   } 
   .champion1:hover{
     animation-play-state: paused;
@@ -200,11 +332,6 @@ body{
         position: relative;
     }
   }
- /*  .champion2{
-    width:500px; 
-    height:500px;
-    float: right;
-  }  */
 footer{
     background:black;
     color: aliceblue;
@@ -215,25 +342,5 @@ footer{
    /*  flex-wrap: wrap; */
     
 }
-
-/*Desktop first  que empiece desde el MQ mas grande*/
-
-@media screen and (max-width:320px){
-   
-
-}
-
-@media screen and (max-width:768px){
-    
-}
-
-@media screen and (max-width:480px){
-    
-}
-
-@media screen and (max-width:320px){
-    
-}
-
 
 

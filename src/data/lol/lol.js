@@ -12,7 +12,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt570145160dd39dca/5db05fa8347d1c6baa57be25/RiotX_ChampionList_aatrox.jpg?quality=90&width=250",
       splash:
-        "https://i.pinimg.com/originals/a7/ca/bd/a7cabd40da39af3681044389f9dc3fea.gif",
+        "https://2img.net/h/37.media.tumblr.com/0b60dec4934faf904efcb2de7a88ed5d/tumblr_mod77mkEXH1svrqhzo1_500.gif",
       blurb:
         "Aatrox is a legendary warrior, one of only five that remain of an ancient race known as the Darkin. He wields his massive blade with grace and poise, slicing through legions in a style that is hypnotic to behold. With each foe felled, Aatrox's ...",
       info: {
@@ -64,7 +64,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1259276b6d1efa78/5db05fa86e8b0c6d038c5ca2/RiotX_ChampionList_ahri.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+        "https://i.pinimg.com/originals/13/0a/9d/130a9d73c6a11a552e0bb8661140efd1.gif",
       blurb:
         "Unlike other foxes that roamed the woods of southern Ionia, Ahri had always felt a strange connection to the magical world around her; a connection that was somehow incomplete. Deep inside, she felt the skin she had been born into was an ill fit for ...",
       info: {
@@ -116,7 +116,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt80ff58fe809777ff/5db05fa8adc8656c7d24e7d6/RiotX_ChampionList_akali.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
+        "https://media1.tenor.com/images/db16190c604d35b051dec12d57746d57/tenor.gif",
       blurb:
         "There exists an ancient order originating in the Ionian Isles dedicated to the preservation of balance. Order, chaos, light, darkness -- all things must exist in perfect harmony for such is the way of the universe. This order is known as the Kinkou ...",
       info: {
@@ -168,7 +168,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3b366925d2fd8fdb/5db05fa856458c6b3fc1750b/RiotX_ChampionList_alistar.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg",
+        "https://gamepedia.cursecdn.com/lolesports_gamepedia_en/7/7f/Alistar_concept_10.gif",
       blurb:
         "As the mightiest warrior to ever emerge from the Minotaur tribes of the Great Barrier, Alistar defended his tribe from Valoran's many dangers; that is, until the coming of the Noxian army. Alistar was lured from his village by the machinations of ...",
       info: {
@@ -220,7 +220,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt40dfbe48a61c439f/5db05fa80b39e86c2f83dbf9/RiotX_ChampionList_amumu.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg",
+        "https://giffiles.alphacoders.com/107/107609.gif",
       blurb:
         "''Solitude can be lonelier than death.''<br><br>A lonely and melancholy soul from ancient Shurima, Amumu roams the world in search of a friend. Cursed by an ancient spell, he is doomed to remain alone forever, as his touch is death and his affection ...",
       info: {
@@ -272,7 +272,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3d24a1482453088a/5db05fa8df78486c826dcce8/RiotX_ChampionList_anivia.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_0.jpg",
+        "https://thumbs.gfycat.com/SkinnySeveralCondor-size_restricted.gif",
       blurb:
         "Anivia is a being of the coldest winter, a mystical embodiment of ice magic, and an ancient protector of the Freljord. She commands all the power and fury of the land itself, calling the snow and bitter wind to defend her home from those who would ...",
       info: {
@@ -324,7 +324,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt28c708665427aef6/5db05fa89481396d6bdd01a6/RiotX_ChampionList_annie.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
+        "https://thumbs.gfycat.com/BiodegradableSillyAmberpenshell-small.gif",
       blurb:
         "There have always been those within Noxus who did not agree with the evils perpetrated by the Noxian High Command. The High Command had just put down a coup attempt from the self-proclaimed Crown Prince Raschallion, and a crackdown on any form of ...",
       info: {
@@ -376,7 +376,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt943aae038e2dee98/5db05fa8e9effa6ba5295f91/RiotX_ChampionList_ashe.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+        "https://pa1.narvii.com/6932/694050b7a1c87568c488b135ba977671eb3adf5fr1-540-229_hq.gif",
       blurb:
         "With each arrow she fires from her ancient ice-enchanted bow, Ashe proves she is a master archer. She chooses each target carefully, waits for the right moment, and then strikes with power and precision. It is with this same vision and focus that she ...",
       info: {
@@ -428,7 +428,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5dd3569fc67d6664/5db05fa8bd24496c390ae4d8/RiotX_ChampionList_aurelionsol.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
+        "https://thumbs.gfycat.com/GrouchyBountifulIchthyostega-size_restricted.gif",
       blurb:
         "Aurelion Sol once graced the vast emptiness of the cosmos with celestial wonders of his own devising. Now, he is forced to wield his awesome power at the behest of a space-faring empire that tricked him into servitude. Desiring a return to his ...",
       info: {
@@ -480,7 +480,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0e3f847946232167/5db05fa889fb926b491ed7ff/RiotX_ChampionList_azir.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_0.jpg",
+        "https://pa1.narvii.com/5769/c68d36227b84cc1995626a9050d1dcf42ce47c26_hq.gif",
       blurb:
         "''Shurima was once the glory of Runeterra. I will make it so again.''<br><br>Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his ...",
       info: {
@@ -532,7 +532,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbbe3ce0c0ae1305b/5db05fb23a326d6df6c0e7b3/RiotX_ChampionList_bard.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg",
+        "https://thumbs.gfycat.com/ParallelUnripeAdmiralbutterfly-size_restricted.gif",
       blurb:
         "Bard travels through realms beyond the imagination of mortal beings. Some of Valoran's greatest scholars have spent their lives trying to understand the mysteries he embodies. This enigmatic spirit has been given many names throughout the history of ...",
       info: {
@@ -584,7 +584,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd7ef7e56ce1fe17b/5db05fb26af83b6d7032c8f8/RiotX_ChampionList_blitzcrank.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
+        "https://media1.tenor.com/images/b545fc8e3fdbbd126526717b45292d0a/tenor.gif",
       blurb:
         "Zaun is a place where both magic and science have gone awry, and the unchecked nature of experimentation has taken its toll. However, Zaun's lenient restrictions allow their researchers and inventors the leeway to push the bounds of science at an ...",
       info: {
@@ -636,7 +636,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc8ca2e9bba653dda/5db05fb2dc674266df3d5d30/RiotX_ChampionList_brand.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg",
+        "https://pa1.narvii.com/6332/41c0d155441dc6c750303063d541c033862c5e82_hq.gif",
       blurb:
         "In a faraway place known as Lokfar there was a seafaring marauder called Kegan Rodhe. As was his people's way, Kegan sailed far and wide with his fellows, stealing treasures from those unlucky enough to catch their attention. To some, he was a ...",
       info: {
@@ -688,7 +688,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd140e30fa86d6ddd/5db05fb2242f426df132f95d/RiotX_ChampionList_braum.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
+        "https://media1.tenor.com/images/20435461c6b50f2f294bfb5f54f16e9c/tenor.gif",
       blurb:
         "''Would you like a bedtime story?''<br><br>''Grandma, I'm too old for that.''<br><br>''You're never too old to be told a story.''<br><br>The girl reluctantly crawls into bed and waits, knowing she won't win this battle. A bitter wind howls outside, ...",
       info: {
@@ -740,7 +740,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt014f4b6fc9bacd10/5db05fb00b39e86c2f83dbff/RiotX_ChampionList_caitlyn.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
+        "https://media1.tenor.com/images/5fae5de474a339c25e7ac1719565e9f7/tenor.gif",
       blurb:
         "''Go ahead, run. I'll give you a five minute head start.''<br><br>One of the reasons Piltover is known as the City of Progress is because it has an extraordinarily low crime rate. This hasn't always been the case; brigands and thieves of all sorts ...",
       info: {
@@ -792,7 +792,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt413fcd7681fe0773/5db05fb089fb926b491ed805/RiotX_ChampionList_camille.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
+        "https://media1.tenor.com/images/5665314489209435dd4b6dc0cc4b6a10/tenor.gif",
       blurb:
         "Weaponized to execute outside the boundaries of the law, Camille Ferros is an elegant and elite operative who ensures the commerce of the Piltover machine with its Zaunite underbelly runs smoothly. Raised among manners and money, she is the Principal ...",
       info: {
@@ -844,7 +844,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte189be8189da97ea/5db05fb1bd24496c390ae4de/RiotX_ChampionList_cassiopeia.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_0.jpg",
+        "https://i.pinimg.com/originals/3c/db/ac/3cdbaccc70a1aa057e2943c68fb1e449.jpg",
       blurb:
         "Cassiopeia is a terrifying creature - half woman, half snake - whose slightest glance brings death. The youngest daughter of one of Noxus' most influential families, she was once a beautiful and cunning temptress capable of manipulating the hardest ...",
       info: {
@@ -896,7 +896,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4dfb71de3ddc8166/5db05fb13a326d6df6c0e7ad/RiotX_ChampionList_chogath.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg",
+        "https://i.pinimg.com/originals/06/a2/bf/06a2bf9e5bb4de5b83c1cf78bc89278a.gif",
       blurb:
         "There is a place between dimensions, between worlds. To some it is known as the Outside, to others it is the Unknown. To those that truly know, however, it is called the Void. Despite its name, the Void is not an empty place, but rather the home of ...",
       info: {
@@ -948,7 +948,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltdd918c4d0a86347a/5db05fb1df78486c826dccee/RiotX_ChampionList_corki.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_0.jpg",
+        "https://2.bp.blogspot.com/-n6ZxiJiAxpY/TwuSo9TRGMI/AAAAAAAAAK8/-dqAp3R8HJM/s1600/%255Bgickr.com%255D_558ff968-3808-3da4-819c-a5afff6cbbf3.gif",
       blurb:
         "When Heimerdinger and his yordle colleagues migrated to Piltover, they embraced science as a way of life, and they immediately made several groundbreaking contributions to the techmaturgical community. What yordles lack in stature, they make up for ...",
       info: {
@@ -1000,7 +1000,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt38b52be4a2cb1004/5db05fb19481396d6bdd01ac/RiotX_ChampionList_darius.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+        "https://media1.tenor.com/images/9ccec4f5311e4925c9be8761549fa69b/tenor.gif",
       blurb:
         "There is no greater symbol of Noxian might than Darius, the nation's most feared and battle-hardened warrior. Orphaned at a young age, Darius had to fight to keep himself and his younger brother alive. By the time he joined the military, he had ...",
       info: {
@@ -1052,7 +1052,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt56570083d2a5e20e/5db05fbc823d426762825fdf/RiotX_ChampionList_diana.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg",
+        "https://i.pinimg.com/originals/8a/9c/07/8a9c076014abeff1490cf44977775c4c.gif",
       blurb:
         "''I am the light coursing in the soul of the moon.''<br><br>Bearing her crescent moonblade, Diana fights as a warrior of the Lunari, a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, ...",
       info: {
@@ -1104,7 +1104,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc0be728e4cbb8f2a/5db05fbc89fb926b491ed80b/RiotX_ChampionList_draven.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg",
+        "https://media1.tenor.com/images/abc6916549d00003007cce222b832541/tenor.gif",
       blurb:
         "Unlike his brother Darius, victory in battle was never enough for Draven. He craved recognition, acclaim, and glory. He first sought greatness in the Noxian military, but his flair for the dramatic went severely underappreciated. Thirsting for a ...",
       info: {
@@ -1156,7 +1156,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte88a3d7e9e408904/5db05fbce9effa6ba5295f99/RiotX_ChampionList_drmundo.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg",
+        "https://thumbs.gfycat.com/NeedyHilariousAcaciarat-size_restricted.gif",
       blurb:
         "''Beware the Madman of Zaun. In his eyes, you are already dead''<br><br>It is said that the man now known as Dr. Mundo was born without any sort of conscience. Instead, he had an unquenchable desire to inflict pain through experimentation. By the time ...",
       info: {
@@ -1208,7 +1208,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf22ba7e6328e4376/5db05fbd242f426df132f963/RiotX_ChampionList_ekko.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg",
+        "https://pa1.narvii.com/6305/72a3adc493df56a9e964e8929bba35ee7a021a37_00.gif",
       blurb:
         "A prodigy from the rough streets of Zaun, Ekko manipulates time to spin any situation to his advantage. Using his own invention, the Zero-Drive, he explores the branching possibilities of reality. As well as experimenting with multi-dimensional ...",
       info: {
@@ -1260,7 +1260,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltfe21ff2ddb84d5d1/5db05fbd0b39e86c2f83dc05/RiotX_ChampionList_elise.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg",
+        "https://data.whicdn.com/images/212660682/original.gif",
       blurb:
         "''Beauty is power too, and can strike swifter than any sword.''<br><br>Elise is a deadly predator who dwells in a shuttered, lightless palace, deep in the Immortal Bastion of Noxus. Once she was mortal, the mistress of a once-powerful house, but the ...",
       info: {
@@ -1312,7 +1312,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte24b4c6ec1beebb9/5db05fbddf78486c826dccf4/RiotX_ChampionList_evelynn.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg",
+        "https://steamuserimages-a.akamaihd.net/ugc/860610549955062134/48F31F3457774AE58A665D87260EC774F2A8F9C0/",
       blurb:
         "Swift and lethal, Evelynn is one of the most deadly - and expensive - assassins in all of Runeterra. Able to merge with the shadows at will, she patiently stalks her prey, waiting for the right moment to strike. While Evelynn is clearly not entirely ...",
       info: {
@@ -1364,7 +1364,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt60f687c95425f73f/5db05fbd2dc72966da746704/RiotX_ChampionList_ezreal.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
+        "https://thumbs.gfycat.com/SmoggyVastBluebottle-size_restricted.gif",
       blurb:
         "The intrepid young adventurer Ezreal has explored some of the most remote and abandoned locations on Runeterra. During an expedition to the buried ruins of ancient Shurima, he recovered an amulet of incredible mystical power. Likely constructed to be ...",
       info: {
@@ -1416,7 +1416,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1151ac1242311053/5db05fbca6470d6ab91ce594/RiotX_ChampionList_fiddlesticks.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_0.jpg",
+        "https://media1.tenor.com/images/592b3cfe6f0760b40823eb9ffe9d5893/tenor.gif",
       blurb:
         "For nearly twenty years, Fiddlesticks has stood alone in the easternmost summoning chamber of the Institute of War. Only the burning emerald light of his unearthly gaze pierces the musty darkness of his dust-covered home. It is here that the Harbinger ...",
       info: {
@@ -1468,7 +1468,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt935dd149b2617ac8/5db05fbcdc674266df3d5d36/RiotX_ChampionList_fiora.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg",
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_2.jpg",
       blurb:
         "''I have come to kill you for the sake of honor. And though you possess none, still you die.''<br>The most feared duelist in all Valoran, Fiora is as renowned for her brusque manner and cunning mind as she is for the speed of her bluesteel rapier. ...",
       info: {
@@ -1520,7 +1520,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6000fa69e03c25c0/5db05fbc56458c6b3fc17513/RiotX_ChampionList_fizz.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_0.jpg",
+        "https://media.giphy.com/media/3ohhwfkQUC3R9zWirK/giphy.gif",
       blurb:
         "Centuries ago, an ancient water-dwelling race built a hidden city beneath a mountain in the sea. Though these creatures had their enemies, the city was an impenetrable fortress, and, in the safety it provided, they grew complacent. Fizz, however, ...",
       info: {
@@ -1572,7 +1572,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5890d1ab5c8be01f/5db05fc6823d426762825fe5/RiotX_ChampionList_galio.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_0.jpg",
+        "https://media1.tenor.com/images/9e3757ce8bdaa195f64d7aca166ba558/tenor.gif",
       blurb:
         "''There is no such thing as redemption. Only penance.''<br><br>Long before the regulation of magic, mages experimented with the creation of artificial life. Now forbidden, instilling golems with reason was once not so uncommon a practice amongst the ...",
       info: {
@@ -1624,7 +1624,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltfdff3781ccfb2a5c/5db05fc689fb926b491ed811/RiotX_ChampionList_gangplank.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_0.jpg",
+        "https://thumbs.gfycat.com/VariableGreatDogwoodtwigborer-small.gif",
       blurb:
         "''I was cutting throats and sinking Noxian war galleys when you were still pissing your britches, boy. You don't want to take me on.''<br><br>As unpredictable as he is brutal, the dethroned reaver king known as Gangplank is feared far and wide. Where ...",
       info: {
@@ -1676,7 +1676,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte41a162aed9339b7/5db05fc60b39e86c2f83dc0d/RiotX_ChampionList_garen.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
+        "https://media1.tenor.com/images/ca51c03bc1448a7bd5b95486b2a63b00/tenor.gif",
       blurb:
         "Throughout Valoran, the resolve of Demacia's military is alternately celebrated or despised, but always respected. Their ''zero tolerance'' moral code is strictly upheld by civilians and soldiers alike. In combat, this means Demacian troops may not ...",
       info: {
@@ -1728,7 +1728,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta80f79dd96ee5d30/5db05fc6df78486c826dcd00/RiotX_ChampionList_gnar.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg",
+        "https://thumbs.gfycat.com/DangerousMetallicIndianspinyloach-size_restricted.gif",
       blurb:
         "The jungle does not forgive blindness. Every broken branch tells a story.<br><br>I've hunted every creature this jungle has to offer. I was certain there were no challenges left here, but now there is something new. Each track is the size of a ...",
       info: {
@@ -1780,7 +1780,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt795841adba722f85/5db05fc43a326d6df6c0e7b9/RiotX_ChampionList_gragas.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gragas_0.jpg",
+        "https://thumbs.gfycat.com/DecentWeirdJenny-max-1mb.gif",
       blurb:
         "The only thing more important to Gragas than fighting is drinking. His unquenchable thirst for stronger ale has led him in search of the most potent and unconventional ingredients to toss in his still. Impulsive and unpredictable, this rowdy carouser ...",
       info: {
@@ -1832,7 +1832,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt2e7cd286d7b6182e/5e9a59c245a2a97194a1d4c7/RiotX_ChampionList_graves-cigar.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Graves_0.jpg",
+        "https://media1.tenor.com/images/68708de5bcff4fa8cef1a8f6362f1700/tenor.gif",
       blurb:
         "Malcolm Graves is a wanted man in every realm, city and empire he has visited. Tough, strong-willed, and above all, relentless, through his life of crime he has amassed (then invariably lost) a small fortune.",
       info: {
@@ -1885,7 +1885,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blteb9ce5304ec48e19/5db05fc5df78486c826dccfa/RiotX_ChampionList_hecarim.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hecarim_0.jpg",
+        "https://reygif.com/media/hecarim-79954.gif",
       blurb:
         "''Break their ranks and ride them down without mercy. Crush the living and feast on their terror.''<br><br>Hecarim is an armored colossus who charges from the Shadow Isles at the head of a deathly host of spectral horsemen to hunt the living. A ...",
       info: {
@@ -1937,7 +1937,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd30d85446d154070/5db05fc57d28b76cfe4397ef/RiotX_ChampionList_heimerdinger.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_0.jpg",
+        "https://thumbs.gfycat.com/EuphoricBiodegradableArcticduck-size_restricted.gif",
       blurb:
         "From the Journal of Professor Cecil B. Heimerdinger<br><br>10.14<br><br>09:15<br><br>Current meteorological conditions in Bandle City seem optimal. Atmospheric pressure is ideal for today's experiments!<br><br>Running a fifth trial for my ...",
       info: {
@@ -1989,7 +1989,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc44e90a5547120a2/5db05fc5347d1c6baa57be2b/RiotX_ChampionList_illaoi.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_0.jpg",
+        "https://media1.tenor.com/images/3592ae6d15bc28dff684887486c00284/tenor.gif",
       blurb:
         "''I'm not big on sermons. Broken bones teach better lessons.''<br>Illaoi's powerful physique is dwarfed only by her indomitable faith. As the prophet of the Great Kraken, she uses a huge, golden idol to rip her foes' spirits from their bodies and ...",
       info: {
@@ -2041,7 +2041,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf5f2b8de93870aef/5db05fcea6470d6ab91ce59a/RiotX_ChampionList_irelia.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg",
+        "https://media1.tenor.com/images/5daf4f5c53be6691c881564fc24d1e8f/tenor.gif",
       blurb:
         "''The sword flourishes, as though painting with blood.''<br><br>The Ionians have developed some of the most breathtaking and deadly martial arts in all of Runeterra - just one manifestation of their pursuit of enlightenment. The most remarkable blade ...",
       info: {
@@ -2093,7 +2093,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5fff73e1df1873de/5db05fce7d28b76cfe4397f5/RiotX_ChampionList_ivern.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ivern_0.jpg",
+        "https://i.pinimg.com/originals/19/d8/d3/19d8d30727671d3c26edf256f98cd376.gif",
       blurb:
         "Ivern Bramblefoot, known to many as the Green Father, is a peculiar half man, half tree who roams Runeterra's forests, cultivating life everywhere he goes. He knows the secrets of the natural world, and holds deep friendships with all things that grow,...",
       info: {
@@ -2145,7 +2145,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt02bf5329f8abe45d/5db05fcedf78486c826dcd06/RiotX_ChampionList_janna.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Janna_0.jpg",
+        "https://pa1.narvii.com/6390/fb6444f89cea862f59822cd982968986b52fe691_00.gif",
       blurb:
         "There are those sorcerers who give themselves over to the primal powers of nature, forgoing the learned practice of magic. Such a sorceress is Janna, who first learned magic as an orphan growing up amidst the chaos that is the city-state of Zaun. ...",
       info: {
@@ -2249,7 +2249,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6b301613598c3f17/5db05fcf89fb926b491ed81d/RiotX_ChampionList_jax.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jax_0.jpg",
+        "https://i.pinimg.com/originals/8c/1a/d2/8c1ad2baea5339483f26864c7548bf0c.gif",
       blurb:
         "It is seldom the case where a champion is defined by his actions after joining the League of Legends rather than before. Such is the case with Jax, for whom the argument could be made that he is the most prolific tournament fighter currently at the ...",
       info: {
@@ -2301,7 +2301,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt51557edc36ad88a1/5db05fcf0b39e86c2f83dc13/RiotX_ChampionList_jayce.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jayce_0.jpg",
+        "https://pa1.narvii.com/5756/cfb8665bd8156ce742e60aa288117bd94cecb1b5_00.gif",
       blurb:
         "Armed with wit, charm, and his signature transforming hammer, Jayce lives to protect his native Piltover. Long before his nation called him a hero, however, he was a promising young inventor. When Piltover commissioned him to study a rare arcane ...",
       info: {
@@ -2353,7 +2353,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbf6c70d9272a5a2a/5db05fcfe9d7526ab429e532/RiotX_ChampionList_jhin.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg",
+        "https://media1.tenor.com/images/5e3b70f025f946e810edae941c661766/tenor.gif",
       blurb:
         "''Art requires a certain...cruelty.''<br><br>Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy elements within Ionia's ruling council, the serial killer now works as their cabal's ...",
       info: {
@@ -2405,7 +2405,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta2cba784d9fad4b8/5db05fce89fb926b491ed817/RiotX_ChampionList_jinx.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+        "https://i.imgur.com/aisg0Uw.gif?noredirect",
       blurb:
         "Jinx lives to wreak havoc without a thought for the consequences, leaving a trail of mayhem and panic in her wake. A manic and impulsive criminal, she despises nothing more than boredom, and gleefully brings her own volatile brand of pandemonium to ...",
       info: {
@@ -2457,7 +2457,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb7f0196921c74e8c/5db05fcee9d7526ab429e52c/RiotX_ChampionList_kalista.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kalista_0.jpg",
+        "https://media1.tenor.com/images/8a547a3504313eca2eeb80dbf652ac8a/tenor.gif",
       blurb:
         "''When wronged, we seek justice. When hurt, we strike back. When betrayed, the Spear of Vengeance strikes!''<br><br>A specter of wrath and retribution, Kalista is the undying spirit of vengeance, an armored nightmare summoned from the Shadow Isles to ...",
       info: {
@@ -2509,7 +2509,7 @@ const lol =  {
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt39748c7b67252d6f/5db05fd70b39e86c2f83dc19/RiotX_ChampionList_karma.jpg?quality=90&width=250",
       splash:
-        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Karma_0.jpg",
+        "https://i.redd.it/2bzcu6055x041.gif",
       blurb:
         "Karma is a woman of indomitable will and unbound spiritual power. She is the soul of Ionia made manifest and an inspiring presence on the battlefield, shielding her allies and turning back her foes. A strong leader torn between tradition and ...",
       info: {

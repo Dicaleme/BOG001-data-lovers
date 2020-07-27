@@ -11,10 +11,9 @@ import data from './data.js';
 
 
 const campeones = data.list();
+const contenedor = document.getElementById("charBox");
 
 campeones.forEach( element => { 
-
-   const contenedor = document.getElementById("charBox");
 
    const championsName = document.createElement ("div");
    championsName.classList.add ("championsName"); 
@@ -31,8 +30,8 @@ campeones.forEach( element => {
          image.classList.add("champion-image");
 
     championContainer.appendChild(image);
-   championsName.appendChild(championContainer);    
-  /*  contenedor.appendChild(championsName);   */  
+   championsName.appendChild(championContainer);   
+   contenedor.appendChild(championsName);  
    championsName.appendChild(modalButton);
    modalButton.appendChild(championContainer);
     
@@ -44,17 +43,22 @@ campeones.forEach( element => {
    const modal = document.getElementById("modalContainer");
 
 function modalClick (element) {
-        
+      /* const imageSplash = document.createElement("img")
+      imageSplash.src=element.img;
+      imageSplash.classList.add("modalSplash");
+      modal.appendChild(imageSplash);
+
+      console.log (imageSplash) */
+
       const infoModal = document.getElementById ("modal")     
       /*infoModal.appendChild(document.createTextNode(element.title))*/
-
       
       document.querySelector ("#modalTitle").textContent = element.title;
-      document.querySelector ("#modalSplash").textContent= element.splash;
+      document.querySelector ("#modalSplash").src= element.splash; 
       document.querySelector ("#modalBlurb").textContent = element.blurb;
-      document.querySelector ("#modalInfo").textContent = element.info;
-
+      /* document.querySelector ("#modalInfo").info.attack; */
       modalBg.classList.add('bgActive');
+
       
 } 
    
@@ -64,3 +68,4 @@ let modalClose = document.querySelector('.modalClose');
 modalClose.addEventListener('click', function () {
    modalBg.classList.remove('bgActive');
 });
+
