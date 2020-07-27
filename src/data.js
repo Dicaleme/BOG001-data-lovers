@@ -8,5 +8,30 @@ console.log(campeones);
 export const list=()=>{
 
   return  campeones;
+}  
+
+
+const isTank = (tanque)=>{
+  return tanque.tags.includes('Tank');
 }
-export default {list};
+export  const dataFilter = (campeonesRecibidos,rol)=>{
+ let datafiltrada = [];
+if (rol === 'Tank'){
+  datafiltrada= campeonesRecibidos.filter(isTank);
+}
+  console.log(datafiltrada);
+  return datafiltrada;
+}
+
+//DEJAR EN MAIN.JS
+dataFilter(campeones,'Tank');
+
+
+
+
+
+/* 
+for(let i = 0;i<campeones.length;i++){
+  const campe = campeones[i];
+  console.log(`${campe.tags}`)
+}  */

@@ -1,4 +1,5 @@
-import data from './data.js'; 
+ import {dataFilter,list}from './data.js';  
+import lol from './data/lol/lol.js';
 // import data from './data/lol/lol.js';
 //import lol from './data/lol/lol.js';
 // import data from './data/rickandmorty/rickandmorty.js';
@@ -10,7 +11,7 @@ import data from './data.js';
 //object.values
 
 
-const campeones = data.list();
+const campeones = list();
 const contenedor = document.getElementById("charBox");
 
 campeones.forEach( element => { 
@@ -69,3 +70,5 @@ modalClose.addEventListener('click', function () {
    modalBg.classList.remove('bgActive');
 });
 
+/* const filtered = lol.filter(lol => lol.tags =tank); 
+console.log(filtered)      */
