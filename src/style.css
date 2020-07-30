@@ -62,12 +62,16 @@ background:black;
     text-align: center;
     }
 .buttons-filter button{
-    background: transparent;
+    
     border: none ;
     border-radius: 50px;
-    justify-content: center;
     cursor: pointer;
+    padding:10px;
+    margin: 10px;
+    text-align: center;
+
 }
+
 
 
 .menú ul li{
@@ -263,7 +267,8 @@ background:black;
 
 
 .champion1{
-   float:right; 
+    margin-left: auto;
+    margin-right: auto;
     animation-name: slidein;
     animation-duration: 15s;
     animation-iteration-count: infinite;

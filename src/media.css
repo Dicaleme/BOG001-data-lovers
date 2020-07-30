@@ -6,9 +6,19 @@
 }
 
 @media screen and (max-width:768px){
-    .menú-responsive-hamburguer{
+   .items-menú{
+       display: block;
+       height: auto;
+   }
+   .items-menú a {
+       flex-direction: column;
+        height: 50px;
         
-    }
+   }
+   .header-logo{
+    justify-content: center;
+    
+   }
 }
 
 @media screen and (max-width:480px){
