@@ -1,32 +1,26 @@
 /*Desktop first  que empiece desde el MQ mas grande*/
 
 @media screen and (max-width:320px){
-   
-
 }
 
 @media screen and (max-width:768px){
-   .items-menú{
-       display: block;
-       height: auto;
-   }
-   .items-menú a {
-       flex-direction: column;
-        height: 50px;
-        
-   }
-   .header-logo{
+.items-menú{
+    display: block;
+    height: auto;
+}
+.items-menú a {
+    flex-direction: column;
+    height: 50px;
+}
+.header-logo{
     justify-content: center;
-    
-   }
+}
 }
 
 @media screen and (max-width:480px){
-    
 }
 
 @media screen and (max-width:1024px){
-    
 }
 
 

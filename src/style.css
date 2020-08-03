@@ -4,7 +4,6 @@
     box-sizing: border-box;
 } 
 body{
-   
     font-family: 'Raleway',sans-serif;
     font-size: 16px;
 }
@@ -18,10 +17,8 @@ body{
     margin-left: 15px;
     position: relative;
 }
-
 .menú{
 background:black;
-
 }
 .items-menú{
     display: flex;
@@ -29,7 +26,8 @@ background:black;
 }
 .items-menú a {
     font-size: 17px;
-   margin-right: 40px; 
+    margin-right: 40px;
+    margin-top: 20px;
     text-decoration: none;
     color: white;
     border-top: 1px solid transparent;
@@ -61,19 +59,21 @@ background:black;
 .parrafo-campeón{
     text-align: center;
     }
-.buttons-filter button{
-    
+.buttons-filter button{    
     border: none ;
     border-radius: 50px;
     cursor: pointer;
     padding:10px;
     margin: 10px;
     text-align: center;
-
 }
-
-
-
+/*ORDER A-Z / Z-A */
+.sortSelect{
+    cursor: pointer;
+    padding:10px;
+    margin: 10px;
+    text-align: center;
+}
 .menú ul li{
     color: cornsilk;
     display: inline;
@@ -81,13 +81,12 @@ background:black;
 }
 .charBox{
     /*outline:1px solid red;*/
-     display: inline-flex; 
+    display: inline-flex; 
     flex-direction: row;
     flex-wrap: wrap;
-
     /* outline:1px solid red; */
 }
-   
+
 .card{
     /*outline:1px solid red;*/
     margin: 25px;
@@ -97,9 +96,7 @@ background:black;
     border-radius:50px;
     flex-wrap: wrap;
     /* outline:1px solid red; */
-   
    /*  grid-template-columns: 25% 20% 25%; */
-         
 }
 .card:hover{    
     transform: translateY(-15px);
@@ -110,18 +107,18 @@ background:black;
     width: 100%;
     height: 100%;
     border-radius:10px;
-  border:2px solid #a37b16; 
+    border:2px solid #a37b16; 
 }  
 .championsName{
 
-     font-family: 'Spectral SC', serif;
-     font-size: 25px;
-     color: black; 
-     display: flex;   
-     flex-direction: column-reverse;   
-     align-items: center;
+    font-family: 'Spectral SC', serif;
+    font-size: 25px;
+    color: black; 
+    display: flex;   
+    flex-direction: column-reverse;   
+    align-items: center;
     
- }
+}
 .modalBg{
     position: fixed;
     width: 100%;
@@ -175,7 +172,7 @@ background:black;
     font-size: 25px;
     color: white;
     margin:  auto;
-  text-align: center;
+    text-align: center;
 }
 
 .modalBlurb{
@@ -228,7 +225,7 @@ background:black;
     background-color: gray;
     padding: 15px;
     color: gray;
-    font-size: 20px;
+    font-size: 17px;
     cursor: pointer;
     transition: 0.4s linear;    
 }
@@ -247,7 +244,7 @@ background:black;
 }
 
 .searchBox .searchText .searchbox_icon path{
-    fill: #130f40;
+    fill: #000000;
     transition: 0.4s linear;    
 }
 
@@ -275,14 +272,13 @@ background:black;
     animation-play-state: running;
     animation-direction: alternate-reverse;
     animation-timing-function:linear ;
-   
-  } 
-  .champion1:hover{
+} 
+.champion1:hover{
     animation-play-state: paused;
-  }
-  @-webkit-keyframes slidein {
+}
+@-webkit-keyframes slidein {
 
-      0%{
+    0%{
         width: 650px;
         height: 650px;
         background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/assassin-d64d3ffdda15e1eed637aefe6a2c7fee.png");
@@ -290,8 +286,8 @@ background:black;
         border-radius:325px;
         border:2px solid #a37b16;
         position: relative;
-      }
-     25%{
+    }
+    25%{
         width: 650px;
         height: 650px;
         background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/fighter-7a08920b696ecdb673edeeae1d3c616e.png");
@@ -299,7 +295,7 @@ background:black;
         border-radius:325px;
         border:2px solid #a37b16;
         position: relative;
-         }
+    }
     50%{
         width: 650px;
         height: 650px;
@@ -336,7 +332,7 @@ background:black;
         border:2px solid #a37b16;
         position: relative;
     }
-  }
+}
 footer{
     background:black;
     color: aliceblue;
@@ -345,7 +341,6 @@ footer{
     justify-content: space-between;
     margin-top: auto;
    /*  flex-wrap: wrap; */
-    
 }
 
 

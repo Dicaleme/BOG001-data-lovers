@@ -1,13 +1,13 @@
-import { example, anotherExample } from '../src/data.js';
+import {searchData, sortData, dataFilter,filterAssassin,filterFighter,filterMage,filterMarksman,filterSupport,filterEveryone} from  '../src/data.js';
 
 
-describe('example', () => {
+describe('searchData', () => {
   it('is a function', () => {
-    expect(typeof example).toBe('function');
+    expect(typeof searchData).toBe('function');
   });
 
   it('returns `example`', () => {
-    expect(example()).toBe('example');
+    expect(searchData()).toBe('searchData');
   });
 });
 
