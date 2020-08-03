@@ -60,16 +60,35 @@ background:black;
 }
 .parrafo-campeón{
     text-align: center;
-    }
-.buttons-filter button{
+}
+
+.Quees{
+    position: absolute;
+    font-style: italic;
+    text-align: left;
+    font-family: "Beaufort for LOL", serif; 
+    letter-spacing: 0.03em;
+    font-size: 45px;
+    font-weight: 100%;
+    margin-top: 120px;
+    margin-left: 20px;
     
+    }
+.parrafo-descripcion{
+    letter-spacing: 0.03em;
+         font-size: 20px;
+        text-align: left;
+        position: absolute;
+        margin-top:200px;
+        margin-left: 30px;
+    }
+    
+.buttons-filter button{
     border: none ;
     border-radius: 50px;
     cursor: pointer;
     padding:10px;
-    margin: 10px;
-    text-align: center;
-
+   margin-left:100px;
 }
 
 
@@ -189,7 +208,7 @@ background:black;
 .modalSplash{
     width: 50%;
     height:95%;
-    float: right;
+    float: left;
     border:1px solid #a37b16;
     margin-right: 20px;
     margin-left: 20px;
@@ -267,8 +286,8 @@ background:black;
 
 
 .champion1{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 698px; 
+    margin-top: 10px;
     animation-name: slidein;
     animation-duration: 15s;
     animation-iteration-count: infinite;
