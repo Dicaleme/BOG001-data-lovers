@@ -1,35 +1,36 @@
-*{
+ *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
+    
+}  
 body{
    
     font-family: 'Raleway',sans-serif;
     font-size: 16px;
 }
-.header{
+ .header{
     color: white;
     flex-wrap:wrap;
-}
+} 
 .header-logo{
-    margin-top: -1%;
+    margin-top: -80px;
     padding-bottom: 1px;
     margin-left: 15px;
-    position: relative;
+    position:relative ;
 }
-
 .menú{
 background:black;
 
 }
 .items-menú{
-    display: flex;
-    justify-content: flex-end;
+    
+     display: flex;
+    justify-content: flex-end; 
 }
 .items-menú a {
+    position: relative;
+    margin-top: 60px;
     font-size: 17px;
-   margin-right: 40px; 
+     margin-right: 40px;  
     text-decoration: none;
     color: white;
     border-top: 1px solid transparent;
@@ -82,16 +83,42 @@ background:black;
         margin-top:200px;
         margin-left: 30px;
     }
+    .jugar-gratis{
+        position: absolute;
+        margin-top: 350px;
+        align-content: center;
+        margin-left: 220px;
+        cursor: pointer;
+       border: double  #a37b16 ;
+       font-size: 25px;
+       font-style: italic;
+       background-color: transparent;
+    }
+    .jugar-gratis:hover{
+        background-color: #a37b16;
+        color: white;
+    }
     
 .buttons-filter button{
-    border: none ;
-    border-radius: 50px;
+    
     cursor: pointer;
     padding:10px;
-   margin-left:100px;
+   margin-left:80px;
+   border: double  #a37b16 ;
+   background-color: transparent;q
+   
 }
-
-
+.sortSelect{
+    border: none;
+    cursor: pointer;
+    padding:10px;
+   margin-left:80px;
+   border: double  #a37b16 ;
+}
+.buttons-filter button:hover {
+    background-color: #a37b16;
+    color: white;
+}
 
 .menú ul li{
     color: cornsilk;
@@ -116,8 +143,6 @@ background:black;
     border-radius:50px;
     flex-wrap: wrap;
     /* outline:1px solid red; */
-   
-   /*  grid-template-columns: 25% 20% 25%; */
          
 }
 .card:hover{    
@@ -132,14 +157,12 @@ background:black;
   border:2px solid #a37b16; 
 }  
 .championsName{
-
      font-family: 'Spectral SC', serif;
      font-size: 25px;
      color: black; 
      display: flex;   
-     flex-direction: column-reverse;   
-     align-items: center;
-    
+    flex-direction: column-reverse;   
+    align-items: center;
  }
 .modalBg{
     position: fixed;
@@ -203,7 +226,7 @@ background:black;
     text-align: center;
     color:white; 
     text-align: justify;
-    margin-left:20px;     
+         
 }
 .modalSplash{
     width: 50%;
@@ -218,8 +241,7 @@ background:black;
     height:75%; 
     border: 1px solid #a37b16;
     position: absolute;
-    top: 85px;
-    left: 440px;
+    left: 85px;
     transform: rotateZ(45deg); 
 }
 .searchBox{    
@@ -347,6 +369,7 @@ background:black;
         position: relative;
     }
     100%{
+    
         width: 650px;
         height: 650px;
         background-image:url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/tank-1245abc326bd98c567ab22659719a1a3.png");
@@ -354,6 +377,16 @@ background:black;
         border-radius:325px;
         border:2px solid #a37b16;
         position: relative;
+        
+    }
+    }
+  
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
     }
   }
 footer{
