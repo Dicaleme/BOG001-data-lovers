@@ -25,8 +25,8 @@ const pintarCampeones = (campeones) => {
       image.classList.add("champion-image");
 
       championContainer.appendChild(image);
-      championsName.appendChild(championContainer);
-      contenedor.appendChild(championsName);
+       championsName.appendChild(championContainer);
+       contenedor.appendChild(championsName);
       championsName.appendChild(modalButton);
       modalButton.appendChild(championContainer);
 
