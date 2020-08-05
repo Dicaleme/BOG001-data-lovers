@@ -18,7 +18,6 @@ body{
 }
 .menú{
 background:black;
-
 }
 .items-menú{
     display: flex;
@@ -265,7 +264,7 @@ background:black;
     background-color: #a37b16;
     padding: 15px;
     color: gray;
-    font-size: 20px;
+    font-size: 17px;
     cursor: pointer;
     transition: 0.4s linear;    
 }
@@ -461,7 +460,6 @@ footer{
     justify-content: space-between;
     margin-top: auto;
    /*  flex-wrap: wrap; */
-    
 }
 
 
