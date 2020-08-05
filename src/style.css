@@ -3,11 +3,10 @@
     
 }  
 body{
-   
     font-family: 'Raleway',sans-serif;
     font-size: 16px;
 }
- .header{
+.header{
     color: white;
     flex-wrap:wrap;
 } 
@@ -22,15 +21,14 @@ background:black;
 
 }
 .items-menú{
-    
-     display: flex;
+    display: flex;
     justify-content: flex-end; 
 }
 .items-menú a {
     position: relative;
     margin-top: 60px;
     font-size: 17px;
-     margin-right: 40px;  
+    margin-right: 40px;  
     text-decoration: none;
     color: white;
     border-top: 1px solid transparent;
@@ -44,8 +42,8 @@ background:black;
     color: white;
 }
 .Elige-tu{  
-   padding: 8px ; 
-     margin-bottom: 1px;
+    padding: 8px ; 
+    margin-bottom: 1px;
     text-align: center;
     font-size: 24px;
 }
@@ -76,28 +74,28 @@ background:black;
     }
 .parrafo-descripcion{
     letter-spacing: 0.03em;
-         font-size: 20px;
-        text-align: center;
-        position: absolute;
-        margin-top:130px;
-        margin-left: 30px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    margin-top:130px;
+    margin-left: 30px;
     }
 .jugar-gratis{
-        position: absolute;
-        margin-top: 280px;
-        align-content: center;
-        margin-left: 220px;
-        cursor: pointer;
-       border: double  #a37b16 ;
-       font-size: 28px;
-       font-style: italic;
-       background-color: transparent;
-       text-decoration: none;
-       color: black;
+    position: absolute;
+    margin-top: 280px;
+    align-content: center;
+    margin-left: 220px;
+    cursor: pointer;
+    border: double  #a37b16 ;
+    font-size: 28px;
+    font-style: italic;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
     }
 .jugar-gratis:hover{
-        background-color: #a37b16;
-        color: white;
+    background-color: #a37b16;
+    color: white;
     }
     
 .buttons-filter button{
@@ -115,8 +113,8 @@ background:black;
     border: none;
     cursor: pointer;
     padding:12px;
-   margin-left:30px;
-   border: double  #a37b16 ;
+    margin-left:30px;
+    border: double  #a37b16 ;
 }
 .buttons-filter button:hover {
     background-color: #a37b16;
@@ -129,12 +127,11 @@ background:black;
     text-decoration:none;
 }
 .charBox{
-     margin-left:4%;
-     display: inline-flex; 
+    margin-left:4%;
+    display: inline-flex; 
     flex-direction: row;
     flex-wrap: wrap;
 }
-   
 .card{
     margin: 25px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
@@ -142,8 +139,6 @@ background:black;
     height: 200px;
     border-radius:50px;
     flex-wrap: wrap;
-    
-       
 }
 .card:hover{    
     transform: translateY(-15px);
@@ -155,16 +150,15 @@ background:black;
     height: 100%;
     border-radius:10px;
     border:2px solid #a37b16; 
- 
 }  
 .championsName{
-     font-family: 'Spectral SC', serif;
-     font-size: 25px;
-     color: black; 
-     display: flex;   
+    font-family: 'Spectral SC', serif;
+    font-size: 25px;
+    color: black; 
+    display: flex;   
     flex-direction: column-reverse;   
     align-items: center;
- }
+}
 .modalBg{
     position: fixed;
     width: 100%;
@@ -218,7 +212,7 @@ background:black;
     font-size: 25px;
     color: white;
     margin:  auto;
-  text-align: center;
+    text-align: center;
 }
 
 .modalBlurb{
@@ -227,7 +221,6 @@ background:black;
     text-align: center;
     color:white; 
     text-align: justify;
-         
 }
 .modalSplash{
     width: 50%;
@@ -244,7 +237,7 @@ background:black;
     position:absolute;
     left: 85px;
     transform: rotateZ(45deg); 
-   margin-top: -75px;
+    margin-top: -75px;
 }
 .searchBox{  
     cursor: pointer;
@@ -314,9 +307,9 @@ background:black;
     border: 1px solid #a37b16;
     position:absolute;
     left: 115px;
- margin-top: 358px;
+    margin-top: 358px;
 }
- 
+
 .champion1{
     margin-left: 690px; 
     margin-top: 10px;
@@ -327,26 +320,25 @@ background:black;
     animation-play-state: running;
     animation-direction: alternate-reverse;
     animation-timing-function:linear ;
-   
-  } 
-  .champion1:hover{
+} 
+.champion1:hover{
     animation-play-state: paused;
-  }
-  .Champion2{
+}
+.Champion2{
     margin-top:350px;
     margin-right:190px;
     position: absolute;
-  cursor: pointer;
-  animation-name:play;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-timing-function:linear;
+    cursor: pointer;
+    animation-name:play;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function:linear;
 }
 
-  @-webkit-keyframes slidein {
+@-webkit-keyframes slidein {
 
-      0%{
+    0%{
         width: 650px;
         height: 650px;
         background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/assassin-d64d3ffdda15e1eed637aefe6a2c7fee.png");
@@ -355,8 +347,8 @@ background:black;
         border:2px solid #a37b16;
         position: relative;
     
-      }
-     25%{
+}
+    25%{
         width: 650px;
         height: 650px;
         background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/fighter-7a08920b696ecdb673edeeae1d3c616e.png");
@@ -364,7 +356,7 @@ background:black;
         border-radius:325px;
         border:2px solid #a37b16;
         position: relative;
-         }
+    }
     50%{
         width: 650px;
         height: 650px;
@@ -404,17 +396,15 @@ background:black;
         
     }
     }
-  
-  
 
-  @-webkit-keyframes play {
+@-webkit-keyframes play {
     0%{ 
         width:400px;
         height: 200px;
         background-image: url("https://pa1.narvii.com/7396/04cce0b1eb55a91ff46a07483986d3de84234c12r1-580-326_hq.gif");
         background-size:cover;
         border: 2px solid #a37b16;
-         right:620px;
+        right:620px;
         
     }
     25%{ 
@@ -454,14 +444,14 @@ background:black;
 
     }
     100%{ 
-        width:400px;
+        width: 400px;
         height: 200px;
         background-image: url("https://lolstatic-a.akamaihd.net/apollo/content/lists-of-legends/7_ForgettingZhonyas.gif");
         background-size:cover;
         border: 2px solid #a37b16;
-        right:620px;
+        right: 620px;
     }
-   }
+}
 
 footer{
     background:black;

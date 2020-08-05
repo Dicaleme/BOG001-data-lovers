@@ -1,4 +1,5 @@
-import {searchData,sortData,dataFilter,filterAssassin,filterFighter,filterMage,filterMarksman,filterSupport,filterEveryone} from "./data.js";
+import {filterTank, filterAssassin, filterFighter, filterMage, filterMarksman,
+      filterSupport, filterEveryone,searchData, sortData, } from "./data.js";
 import lol from "./data/lol/lol.js";
 
 const campeonesData = Object.values(lol.data);
@@ -7,9 +8,9 @@ const searchInput = document.getElementById("searchInput");
 const sortSelect = document.getElementById("sortSelect");
 
 //LIMPIAR CONTENEDOR DE LAS TARJETAS
-const pintarCampeones = (campeones) => {
+const pintarCampeones = (campeonesData) => {
       contenedor.textContent= '';
-      campeones.forEach((element) => {
+      campeonesData.forEach((element) => {
       const championsName = document.createElement("div");
       championsName.classList.add("championsName");
       championsName.appendChild(document.createTextNode(element.name));
@@ -25,8 +26,8 @@ const pintarCampeones = (campeones) => {
       image.classList.add("champion-image");
 
       championContainer.appendChild(image);
-       championsName.appendChild(championContainer);
-       contenedor.appendChild(championsName);
+      championsName.appendChild(championContainer);
+      contenedor.appendChild(championsName);
       championsName.appendChild(modalButton);
       modalButton.appendChild(championContainer);
 
@@ -51,14 +52,15 @@ modalClose.addEventListener("click", function () {
       modalBg.classList.remove("bgActive");
 });
 
-// DATOS FILTRADOS
+// Filter by Tanks //
 const filtraTankes =()=>{
-      const prueba = dataFilter(campeonesData,'Tank');
-      //console.log(prueba);
-      pintarCampeones(prueba);
+      const tanks = filterTank(campeonesData,'Tank');
+      //console.log(tanks);
+      pintarCampeones(tanks);
 }
 document.getElementById("buttonTanks").addEventListener("click",filtraTankes);
 
+// Filter by Assassins //
 const filtraAsesinos =()=>{
       const assas = filterAssassin(campeonesData,'Assassin');
       //console.log(assas);
@@ -66,13 +68,15 @@ const filtraAsesinos =()=>{
 }
 document.getElementById("buttonAssassins").addEventListener("click",filtraAsesinos);
 
+// Filter by Fighters //
 const filtraLuchadores =()=>{
-      const figth= filterFighter(campeonesData,'Fighter');
-      //console.log(figth);
-      pintarCampeones(figth);
+      const fight= filterFighter(campeonesData,'Fighter');
+      //console.log(fight);
+      pintarCampeones(fight);
 }
 document.getElementById("buttonFighters").addEventListener("click",filtraLuchadores);
 
+// Filter by Mages //
 const filtraMagos =()=>{
       const mag= filterMage(campeonesData,'Mage');
       //console.log(mag);
@@ -80,6 +84,7 @@ const filtraMagos =()=>{
 }
 document.getElementById("buttonMagicians").addEventListener("click",filtraMagos);
 
+// Filter by Shooters //
 const filtraTiradores =()=>{
       const tira= filterMarksman(campeonesData,'Marksman');
       //console.log(tira);
@@ -87,6 +92,7 @@ const filtraTiradores =()=>{
 }
 document.getElementById("buttonShooters").addEventListener("click",filtraTiradores);
 
+// Filter by Supports //
 const filtraApoyos =()=>{
       const apo = filterSupport(campeonesData,'Support');
       //console.log(apo);
@@ -94,6 +100,7 @@ const filtraApoyos =()=>{
 }
 document.getElementById("buttonProps").addEventListener("click",filtraApoyos);
 
+// Reset Everyone //
 const filtraTodos =()=>{
       const tod = filterEveryone(campeonesData,'Marksman','Support','Mage','Fighter','Assassin','Tank');
       //console.log(tod);
@@ -101,8 +108,7 @@ const filtraTodos =()=>{
 }
 document.getElementById("buttonEveryone").addEventListener("click",filtraTodos);
 
-
-// SEARCHING CHARACTERS //
+// Searching Characters //
 searchInput.addEventListener('keyup', search);
 function search (){
       let characterName = event.target.value;
@@ -115,7 +121,7 @@ function search (){
 }
 } 
 
-// SORTING CHARACTERS //
+// Sorting Characters A-Z//
 sortSelect.addEventListener('change', sortingCharacters);
 function sortingCharacters (){
       let order = event.target.value;
