@@ -81,7 +81,7 @@ usuario necesita.
 
 * [ x] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 * [ x] Uso de selectores de CSS.
-* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+* [  ] Construir tu aplicación respetando el diseño realizado (maquetación).
 * [ x] [Uso de flexbox en CSS.](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### DOM y Web APIs
@@ -93,15 +93,15 @@ usuario necesita.
 
 ### JavaScript
 
-* [ ] Uso de condicionales (if-else | switch | operador ternario)
+* [  ] Uso de condicionales (if-else | switch | operador ternario)
 * [x ] Uso de bucles (for | for..in | for..of | while)
-* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
+* [  ] Uso de funciones (parámetros | argumentos | valor de retorno)
 * [x ] Manipular arrays (filter | map | sort | reduce)
 * [x ] Manipular objects (key | value)
 * [x ] Uso ES modules ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 | [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
-* [ ] Diferenciar entre expression y statements.
-* [ ] Diferenciar entre tipos de datos atómicos y estructurados.
+* [  ] Diferenciar entre expression y statements.
+* [  ] Diferenciar entre tipos de datos atómicos y estructurados.
 
 ### Testing
 
@@ -110,20 +110,20 @@ usuario necesita.
 ### Estructura del código y guía de estilo
 
 * [x ] Organizar y dividir el código en módulos (Modularización)
-* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
-* [ ] Uso de linter (ESLINT)
+* [  ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
+* [  ] Uso de linter (ESLINT)
 
 ### Git y GitHub
 
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
-* [ ] Colaboración en Github (branches | pull requests | |tags)
+* [  ] Uso de comandos de git (add | commit | pull | status | push)
+* [  ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
+* [  ] Colaboración en Github (branches | pull requests | |tags)
 
 ### UX
 
 * [x ] Diseñar la aplicación pensando y entendiendo al usuario.
 * [x ] Crear prototipos para obtener feedback e iterar.
-* [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+* [  ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 * [x ] Planear y ejecutar tests de usabilidad.
 
 ## 4. Consideraciones generales
@@ -164,6 +164,8 @@ Durante tu trabajo deberás haber hecho e iterado bocetos (_sketches_) de tu
 solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
 iteraciones que hagas, que las subas a tu repositorio y las menciones en tu
 `README.md`.
+
+<img src="src/imagenesLOL/SketchH1.jpg" width= "500 px">
 
 #### Prototipo de alta fidelidad
 
@@ -437,15 +439,15 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 ## 9. Checklist
 
-* [ ] Usa VanillaJS.
-* [ ] No hace uso de `this`.
-* [ ] Pasa linter (`npm run pretest`)
-* [ ] Pasa tests (`npm test`)
+* [x ] Usa VanillaJS.
+* [x ] No hace uso de `this`.
+* [x ] Pasa linter (`npm run pretest`)
+* [x ] Pasa tests (`npm test`)
 * [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
   lines y branches.
-* [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
+* [x ] Incluye _Definición del producto_ clara e informativa en `README.md`.
 * [ ] Incluye historias de usuario en `README.md`.
-* [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
+* [x ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
   `README.md`.
 * [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
   en `README.md`.
@@ -453,6 +455,6 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [ ] Incluye el listado de problemas que detectaste a través de tests de
   usabilidad en el `README.md`.
 * [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
-* [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
-* [ ] UI: Permite filtrar data en base a una condición.
+* [x ] UI: Permite ordenar data por uno o más campos (asc y desc).
+* [x ] UI: Permite filtrar data en base a una condición.
 * [ ] UI: Es _responsive_.
