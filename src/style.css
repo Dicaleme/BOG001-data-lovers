@@ -1,6 +1,5 @@
- *{
-    margin: 0;
-    
+*{
+    margin: 0;    
 }  
 body{
     font-family: 'Raleway',sans-serif;
@@ -68,7 +67,7 @@ background:black;
     letter-spacing: 0.03em;
     font-size: 45px;
     font-weight: 100%;
-    margin-top: 50px;
+    margin-top: 140px;
     margin-left: 20px;
     }
 .parrafo-descripcion{
@@ -76,14 +75,14 @@ background:black;
     font-size: 20px;
     text-align: center;
     position: absolute;
-    margin-top:130px;
+    margin-top:250px;
     margin-left: 30px;
     }
 .jugar-gratis{
     position: absolute;
-    margin-top: 280px;
+    margin-top: 400px;
     align-content: center;
-    margin-left: 220px;
+    margin-left: 250px;
     cursor: pointer;
     border: double  #a37b16 ;
     font-size: 28px;
@@ -96,6 +95,14 @@ background:black;
     background-color: #a37b16;
     color: white;
     }
+
+.filter-container{
+    align-items: center;
+    justify-content: center;
+    margin-right:30%;
+    margin-left: 20px;
+
+}    
     
 .buttons-filter button{
     font-style: italic;
@@ -112,7 +119,8 @@ background:black;
     border: none;
     cursor: pointer;
     padding:12px;
-    margin-left:30px;
+    margin-left:100px;
+    align-items: center;
     border: double  #a37b16 ;
 }
 .buttons-filter button:hover {
@@ -241,9 +249,8 @@ background:black;
 .searchBox{  
     cursor: pointer;
     position: absolute;
-    left: 75%;
+    left: 72%;    
 }
-
 
 .searchBox .searchText{
     position: relative;
@@ -335,30 +342,40 @@ background:black;
     animation-timing-function:linear;
 }
 
+.logos{
+    background:black;
+    color: aliceblue;
+    padding: 3em;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: auto;
+    flex-wrap: wrap
+}   
+
 @-webkit-keyframes slidein {
 
     0%{
-        width: 650px;
-        height: 650px;
+        width: 550px;
+        height: 550px;
         background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/assassin-d64d3ffdda15e1eed637aefe6a2c7fee.png");
         background-size:cover;
         border-radius:325px;
         border:2px solid #a37b16;
         position: relative;
-    
-}
+    }
     25%{
-        width: 650px;
-        height: 650px;
+        width: 550px;
+        height: 550px;
         background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/fighter-7a08920b696ecdb673edeeae1d3c616e.png");
         background-size:cover;
         border-radius:325px;
         border:2px solid #a37b16;
         position: relative;
+        margin-left: 60%;
     }
     50%{
-        width: 650px;
-        height: 650px;
+        width: 550px;
+        height: 550px;
         background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/mage-3bfa6dfe620adafe5e539c2e470f4acc.png");
         background-size:cover;
         border-radius:325px;
@@ -366,8 +383,8 @@ background:black;
         position: relative;
     }
     70%{
-        width: 650px;
-        height: 650px;
+        width: 550px;
+        height: 550px;
         background-image:url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/marksman-b339ed8fd7e04ff2c3fca022c5d299fb.png");
         background-size:cover;
         border-radius:325px;
@@ -375,8 +392,8 @@ background:black;
         position: relative;
     }
     80%{
-        width: 650px;
-        height: 650px;
+        width: 550px;
+        height: 550px;
         background-image:url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/support-d63ae08baf517425864ddc020a5871d5.png");
         background-size:cover;
         border-radius:325px;
@@ -385,26 +402,23 @@ background:black;
     }
     100%{
     
-        width: 650px;
-        height: 650px;
+        width: 550px;
+        height: 550px;
         background-image:url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/es-es/production/es-es/static/tank-1245abc326bd98c567ab22659719a1a3.png");
         background-size:cover;
         border-radius:325px;
         border:2px solid #a37b16;
-        position: relative;
-        
+        position: relative;        
     }
-    }
-
-@-webkit-keyframes play {
+    
+/*@-webkit-keyframes slidein {
     0%{ 
         width:400px;
         height: 200px;
         background-image: url("https://pa1.narvii.com/7396/04cce0b1eb55a91ff46a07483986d3de84234c12r1-580-326_hq.gif");
         background-size:cover;
         border: 2px solid #a37b16;
-        right:620px;
-        
+        right:320px;        
     }
     25%{ 
         width:400px;
@@ -412,8 +426,7 @@ background:black;
         background-image: url("https://pa1.narvii.com/7468/744696f8eac6835c770715a3278f2797ecea443br1-480-270_hq.gif");
         background-size:cover;
         border: 2px solid #a37b16;
-        right:620px;
-        
+        right:320px;        
     }
     50%{ 
         width:400px;
@@ -421,8 +434,7 @@ background:black;
         background-image: url("https://media1.tenor.com/images/7ef0c4f6b61436ea445ac4138327f4ff/tenor.gif");
         background-size:cover;
         border: 2px solid #a37b16;
-        right:620px; 
-        
+        right:320px;        
     }
     70%{ 
         width:400px;
@@ -430,7 +442,7 @@ background:black;
         background-image: url("https://media1.tenor.com/images/b7baed5b50f319ea6b879ba0b44b85ca/tenor.gif");
         background-size:cover;
         border: 2px solid #a37b16;
-        right:620px;
+        right:320px;
         
     }
     80%{ 
@@ -439,8 +451,7 @@ background:black;
         background-image: url("https://media1.tenor.com/images/f9eb818d8bce787904086ebb2977fcb8/tenor.gif");
         background-size:cover;
         border: 2px solid #a37b16;
-        right:620px;
-
+        right:320px;
     }
     100%{ 
         width: 400px;
@@ -448,18 +459,6 @@ background:black;
         background-image: url("https://lolstatic-a.akamaihd.net/apollo/content/lists-of-legends/7_ForgettingZhonyas.gif");
         background-size:cover;
         border: 2px solid #a37b16;
-        right: 620px;
-    }
+        right: 320px;
+    }*/    
 }
-
-footer{
-    background:black;
-    color: aliceblue;
-    padding: 3em;
-    text-align: center;
-    justify-content: space-between;
-    margin-top: auto;
-   /*  flex-wrap: wrap; */
-}
-
-
