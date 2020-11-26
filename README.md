@@ -1,4 +1,6 @@
-# Data Lovers
+# Data Lovers LOL - League of Legends
+
+![TrelloDataLovers](https://user-images.githubusercontent.com/65943524/100381529-22a32480-2fe7-11eb-82eb-b3158e524bff.JPG)
 
 ## Índice
 
